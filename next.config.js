@@ -2,6 +2,7 @@ module.exports = {
   exportPathMap: async function(defaultPathMap) {
     return {
       '/': { page: '/' },
+      '/about-me': { page: '/about-me' },
     };
   }
 };
