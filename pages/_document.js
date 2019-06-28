@@ -1,5 +1,8 @@
 import Document from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { Html, Head, Main, NextScript } from 'next/document';
+import { BaseStyles } from "@primer/components";
+
 
 
 export default class MyDocument extends Document {
@@ -26,5 +29,23 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal()
     }
+  }
+
+  render() {
+    return (
+      <Html>
+        <Head>
+        </Head>
+        <body>
+          <BaseStyles>
+            <p>
+            <a href="/">Index</a> ~ <a href="/about-me">About me</a>
+            </p>
+            <Main />
+          </BaseStyles>
+          <NextScript />
+        </body>
+      </Html>
+    );
   }
 }
