@@ -11,6 +11,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "static": "yarn run build && next export"
+    "static": "yarn run build && next export",
+    "now-build": "yarn run static"
   }
 }
