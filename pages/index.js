@@ -1,6 +1,9 @@
+import Hello from '../components/Hello'
+
 function Home() {
-  return <div>Welcome to Next.js!</div>;
+  return <>
+    <Hello name='Zuz' />
+  </>;
 }
 
 export default Home;
-
