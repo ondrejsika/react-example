@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@mdx-js/loader": "^1.1.0",
+    "@next/mdx": "^9.0.2",
     "@primer/components": "^13.1.0",
     "@primer/next-pages": "^0.0.3",
     "next": "^8.1.0",

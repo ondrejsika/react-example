@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
         <body>
           <BaseStyles>
             <p>
-            <a href="/">Index</a> ~ <a href="/about-me">About me</a>
+            <a href="/">Index</a> ~ <a href="/about-me">About me</a> ~ <a href="/mdx">MDX</a>
             </p>
             <Main />
           </BaseStyles>
