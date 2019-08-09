@@ -9,9 +9,6 @@ module.exports = {
   }
 };
 
-const withPages = require("@primer/next-pages/plugin");
-module.exports = withPages(module.exports);
-
 const withImages = require("next-images");
 module.exports = withImages(module.exports);
 
