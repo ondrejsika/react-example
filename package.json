@@ -1,4 +1,12 @@
 {
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "Example project for Ondrej Sika's Next.js & React training",
+  "main": "index.js",
+  "repository": "git@github.com:ondrejsika/react-example.git",
+  "author": "Ondrej Sika <ondrej@ondrejsika.com>",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
     "@mdx-js/loader": "^1.1.0",
     "@next/mdx": "^9.0.2",
