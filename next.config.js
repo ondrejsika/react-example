@@ -17,3 +17,6 @@ module.exports = withMDX(module.exports);
 
 const withCSS = require("@zeit/next-css");
 module.exports = withCSS(module.exports);
+
+const withYAML = require("next-yaml");
+module.exports = withYAML(module.exports);
