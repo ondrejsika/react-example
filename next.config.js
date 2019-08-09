@@ -17,3 +17,6 @@ module.exports = withImages(module.exports);
 
 const withMDX = require("@next/mdx")({});
 module.exports = withMDX(module.exports);
+
+const withCSS = require("@zeit/next-css");
+module.exports = withCSS(module.exports);
