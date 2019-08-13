@@ -5,9 +5,16 @@ import json_file from "../data/example.json";
 import yaml_file from "../data/example.yaml";
 
 function Home() {
+  let name = "Zuz";
   return (
     <>
-      <Hello name="Zuz" />
+      {(() => {
+        if (name) {
+          return <Hello name={name} />;
+        } else {
+          return <h1>Hello unknown</h1>;
+        }
+      })()}
       <img src={require("../data/nela.jpg")} />
       <img src={nela_img} />
       <h2>JSON Data</h2>
